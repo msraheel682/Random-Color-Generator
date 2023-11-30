@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+.container{
+    background-color: rgb(112, 138, 20);
+    border-radius: 10px;
+    width: 25vw;
+    padding: 30px 30px;
+    height: auto;
+    margin: auto;
+    position: relative;
+    top: 40%;
+}
+.container h2{
+    font-size: 27px;
+    font-weight: 700;
+    font-family: sans-serif;
+    text-align: center;
+    margin: 15px;
+    color: white;
+}
+.container button{
+    padding: 15px;
+    width: 20vw;
+    font-weight: 700;
+    margin-left: 6px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+}
+i{
+    font-size: 18px;
+}
